@@ -16,7 +16,7 @@ const sendMessage = async()=> {
     inpuText.value = "";
 
     setTimeout(() => {
-        messageContainer.innerHTML += `<div class="chat__message  chat__message--boot  chat__message--typing">${data.reply}`;
+        messageContainer.innerHTML += `<div class="chat__message  chat__message--boot  chat__message--typing">Escribiendo... </div>`;
         
         messageContainer.scrollTop = messageContainer.scrollHeight;
     }, 500);   
